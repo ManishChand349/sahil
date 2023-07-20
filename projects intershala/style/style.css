@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+body {
+  height: 100vh;
+  list-style: none;
+  background: #fff;
+}
+.container {
+  height: 100vh;
+  display: flex;
+}
+.fas {
+  font-size: 20px;
+}
+.fas:hover {
+  cursor: pointer;
+}
+
+li {
+  padding: 15px 0;
+}
+
+.fa-search {
+  margin-bottom: 80px;
+}
+.fa-newspaper,
+.fa-bell {
+  font-size: 20px;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  margin: 0px 2px;
+  padding: 11px;
+  background: #fff;
+  border-radius: 15px;
+}
+
+img {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  margin: 21px 29px 29px 46px;
+  padding: 15px 0 0 12px;
+}
+.user-name {
+  margin-left: 10px;
+}
+.Wlback{
+  font-size: 16px;
+}
+.account {
+  margin: 55px 0 0 66px;
+  
+}
+.userProfile{
+  align-content: flex-start;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+.btn {
+  padding-bottom: 8px;
+  padding-left: 10px;
+
+}
+.btn1{
+  border-radius: 12px;
+  padding: 6px 22px 4px 22px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  background: rgb(3, 66, 254);
+  cursor: pointer;
+}
+
+ul{
+  margin-bottom: 20px;
+}
+.today{
+  margin-bottom: 25px;
+}
+span{
+  color: #938a8a;
+}
+.Recent-tran{
+  margin: 50px 0 40px 0;
+}
+h5{
+  margin: 2px 0 20px 0;
+}
